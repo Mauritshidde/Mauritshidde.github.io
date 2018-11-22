@@ -1,0 +1,14 @@
+body {
+  background-color: red;
+  color: black;
+}
+
+.menu
+{
+  display: flex;
+  list-style: none;
+}
+
+.menu li {
+  margin-right: 50px;
+}
