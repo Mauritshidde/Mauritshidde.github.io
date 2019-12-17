@@ -1,6 +1,6 @@
-body {
-  background-color: red;
-  color: black;
+* {
+  margin: 10PX;
+  padding: 2px;
 }
 
 .menu
@@ -10,5 +10,178 @@ body {
 }
 
 .menu li {
-  margin-right: 50px;
+  margin-right: auto;
+}
+
+li {
+  margin: auto;
+  border 6px solid #F4A460;
+  background-color: #DEB887;
+}
+
+body {
+  background-image: url('https://st2.depositphotos.com/1040018/6445/i/450/depositphotos_64456795-stockafbeelding-houten-muur-achtergrond.jpg');
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: right;
+  font-family: Verdana, Geneva, Arial, sans-serif;
+}
+
+h3 {
+  font-family: fantasy;
+}
+
+h3 {
+  font-size: 19px;
+  text-align: center;
+  font-style: italic;
+  font-variant: small-caps;
+  font-weight: 500;
+  color: #e87000
+}
+
+table {
+  text-align: center;
+  border: 4px solid 	#DEB887;
+  background-color: #F4A460;
+  margin: auto;
+  font-family: cursive;
+}
+
+th {
+  border: 4px solid 	#DEB887;
+  color: blue;
+}
+
+td {
+  border: 4px solid 	#DEB887;
+  max-width: 600px;
+  color: blue;
+}
+
+h1 {
+  margin: auto;
+  border: 6px solid #F4A460;
+  background-color: #DEB887;
+}
+h4 {
+  margin: auto;
+  text-align: center;
+  border: 7px solid #DEB887;
+  border-radius: 20px 3px 20px 10px;
+  max-width: 600px
+}
+
+li:hover {
+  font-size: 20px;
+  background-color: blue;
+}
+
+table.rood {
+  text-align: center;
+  border: 4px solid 	#F4A460;
+  background-color: #DEB887;
+  margin: auto;
+  font-family: cursive;
+}
+
+th.rood {
+  border: 4px solid 	#F4A460;
+}
+
+td.rood {
+  border: 4px solid 	#F4A460;
+  max-width: 600px
+}
+
+ul a {
+  text-decoration: none;
+}
+
+p.blue {
+  text-align: center;
+  color: blue;
+  font-variant: normal;
+  font-family: fantasy;
+  font-style: italic;
+  font-size: 25px;
+}
+
+p.orange {
+  text-align: center;
+  color: red;
+  font-style: italic;
+  font-family: monospace;
+  font-size: 20px;
+  margin: auto;
+}
+
+p.green {
+  text-align: center;
+  text-transform: capitalize;
+  text-decoration-color: frameborder;
+  text-shadow: blue;
+  text-decoration: overline;
+  color: green;
+  font-family: sans-serif;
+  font-style: italic;
+  font-size: 15px;
+  margin: 20%;
+}
+
+td.blauw {
+  border: 4px solid 	#63de12;
+  max-width: 600px
+  color: #63de12;
+}
+
+td.kaas {
+  border: 4px solid 	#210dd6;
+  max-width: 600px;
+  color: #210dd6;
+}
+
+td.groen {
+  border: 4px solid 	#d60da7;
+  max-width: 600px;
+  color: #d60da7;
+}
+
+td.pizza {
+  border: 4px solid 	#209e9c;
+  max-width: 600px;
+  color: #209e9c;
+}
+
+td.appel {
+  border: 4px solid 	#f0e10e;
+  max-width: 600px;
+  color: #f0e10e;
+}
+
+td.apple {
+  border: 4px solid 	#b50d15;
+  max-width: 600px;
+  color: #b50d15;
+}
+
+td.drie {
+  border: 4px solid 	#355951;
+  max-width: 600px;
+  color: #355951;
+}
+
+td.vlees {
+  border: 4px solid   #4d8006;
+  max-width: 600px;
+  color: #4d8006;
+}
+
+li a:visited {
+ background-color: red;
 }
